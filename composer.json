@@ -1,0 +1,22 @@
+{
+    "name": "slogsdon/flat-file-example",
+    "type": "project",
+    "require": {
+        "slogsdon/flat-file": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shane Logsdon",
+            "email": "shane@shanelogsdon.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+      "build": "flat-file build",
+      "start": "flat-file serve"
+    },
+    "config": {
+      "process-timeout": 0
+    }
+}
