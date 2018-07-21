@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d722f47ab997093880699a5c584521bb",
+    "content-hash": "fc7f326b99c143818a2197f6073c6c7a",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -402,19 +402,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slogsdon/php-flat-file.git",
-                "reference": "96b908f576539ea8e913f2bae6065131f8cb1595"
+                "reference": "99e6052f6a7d6267e870e72fe11e55375d9b39cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slogsdon/php-flat-file/zipball/96b908f576539ea8e913f2bae6065131f8cb1595",
-                "reference": "96b908f576539ea8e913f2bae6065131f8cb1595",
+                "url": "https://api.github.com/repos/slogsdon/php-flat-file/zipball/99e6052f6a7d6267e870e72fe11e55375d9b39cb",
+                "reference": "99e6052f6a7d6267e870e72fe11e55375d9b39cb",
                 "shasum": ""
             },
             "require": {
                 "league/commonmark": "^0.17.5",
-                "php": "~7.0",
+                "php": "~7.1",
                 "spatie/yaml-front-matter": "^2.0",
                 "symfony/console": "^4.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.10.1",
+                "phpunit/phpunit": "^7.2",
+                "squizlabs/php_codesniffer": "^3.3"
             },
             "bin": [
                 "bin/flat-file"
@@ -438,7 +443,8 @@
                     "email": "shane@shanelogsdon.com"
                 }
             ],
-            "time": "2018-07-20T20:49:48+00:00"
+            "description": "Fast static-site generator / flat-file CMS",
+            "time": "2018-07-21T13:03:51+00:00"
         },
         {
             "name": "spatie/yaml-front-matter",

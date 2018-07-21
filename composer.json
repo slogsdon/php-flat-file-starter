@@ -1,5 +1,5 @@
 {
-    "name": "slogsdon/flat-file-example",
+    "name": "slogsdon/flat-file-starter",
     "type": "project",
     "require": {
         "slogsdon/flat-file": "dev-master"
@@ -12,6 +12,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-dist": true,
     "scripts": {
       "build": "flat-file build",
       "start": "flat-file serve"
