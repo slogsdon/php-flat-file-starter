@@ -1,5 +1,6 @@
 {
     "name": "slogsdon/flat-file-starter",
+    "description": "Starter project for flat-file",
     "type": "project",
     "require": {
         "slogsdon/flat-file": "dev-master"
