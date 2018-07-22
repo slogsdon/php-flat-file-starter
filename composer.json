@@ -3,7 +3,7 @@
     "description": "Starter project for flat-file",
     "type": "project",
     "require": {
-        "slogsdon/flat-file": "dev-master"
+        "slogsdon/flat-file": "^1.0"
     },
     "license": "MIT",
     "authors": [
@@ -12,8 +12,6 @@
             "email": "shane@shanelogsdon.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-dist": true,
     "scripts": {
       "build": "flat-file build",
       "start": "flat-file serve"
