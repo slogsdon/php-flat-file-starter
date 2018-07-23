@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "5127ad70307ee9ea5cdf5c58128a2e9d",
@@ -398,16 +398,16 @@
         },
         {
             "name": "slogsdon/flat-file",
-            "version": "1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slogsdon/php-flat-file.git",
-                "reference": "98a068a474d46ad5fbb2904e1fc50bb1e2448aaa"
+                "reference": "c04793080460ad98a6a9d08b8d205412925d86c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slogsdon/php-flat-file/zipball/98a068a474d46ad5fbb2904e1fc50bb1e2448aaa",
-                "reference": "98a068a474d46ad5fbb2904e1fc50bb1e2448aaa",
+                "url": "https://api.github.com/repos/slogsdon/php-flat-file/zipball/c04793080460ad98a6a9d08b8d205412925d86c4",
+                "reference": "c04793080460ad98a6a9d08b8d205412925d86c4",
                 "shasum": ""
             },
             "require": {
@@ -444,7 +444,7 @@
                 }
             ],
             "description": "Fast static-site generator / flat-file CMS",
-            "time": "2018-07-22T20:37:30+00:00"
+            "time": "2018-07-23T05:03:11+00:00"
         },
         {
             "name": "spatie/yaml-front-matter",
